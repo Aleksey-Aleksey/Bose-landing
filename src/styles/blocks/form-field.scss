@@ -8,6 +8,11 @@
   color: $color-dark-grey;
   background-color: #f8f8fa;
 
+  &:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 500px #fff inset;
+  }
+
+
   &::placeholder {
     font-weight: 400;
     font-size: 14px;
